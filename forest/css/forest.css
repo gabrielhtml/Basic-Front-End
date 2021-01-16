@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    font-family: Open Sans;
+    background-color: rgb(221, 216, 216);
+}
+
+.content-header{
+    background: url(../imagens/header_forest.jpg);
+    height: 695px;
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    border: solid 1px transparent;
+    background-attachment: fixed;
+}
+
+/*Formatação nas fontes do HEADER*/
+
+.content-header h1{
+    margin-top: 20%;
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 10px white;
+    letter-spacing: 8px;
+}
+
+.content-header p{
+    text-align: center;
+    border-bottom: solid 1px white;
+    display: inline-block;
+    margin-left: 44%;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+/*Formatação do menu*/
+
+.content-header nav a{ /*Formatação do link*/
+    text-decoration: none;
+    color: white;
+    border:solid 1px white;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.content-header nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.content-header nav a:hover{
+    background-color: rgba(0,0,0,0.2);
+    border:solid 1px white;
+}
+
+/*Formatação MAIN section*/
+
+main{
+    margin: auto;
+    width: 90%;
+}
+
+.content-section{
+    background-color: white;
+    margin-top: 25px;
+    overflow: auto;
+    padding: 10px;
+}
+
+.card img{
+    width: 394px;
+    height: 250px;
+    display: block;
+}
+
+.card{
+    float: right;
+}
+
+.card-2, .card-3{
+    margin-right: 2px;
+}
+
+.card p{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+}
+
+.title-bottom h2{
+    text-align: center;
+}
+
+.title-bottom p{
+    text-align: justify;
+    padding: 50px;
+}
+
+.card1{
+    width: 450px;
+    height: 300px;
+    float: right;
+    padding: 15px;
+}
+
+.card2{
+    width: 450px;
+    height: 300px;
+    float: left;
+    padding: 15px;
+}
+
+
+/*Formatação no Footer*/
+.footer-content{
+    text-align: center;
+    background: gray;
+    padding: 3px;
+    margin-top: 10px;
+    color: white;
+    text-transform: uppercase;
+}
